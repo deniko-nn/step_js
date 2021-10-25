@@ -1,0 +1,29 @@
+{
+  "name": "HW_Git",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000s\u0000t\u0000e\u0000p\u0000_\u0000j\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "serve": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deniko-nn/step_js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deniko-nn/step_js/issues"
+  },
+  "homepage": "https://github.com/deniko-nn/step_js#readme",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "sass-loader": "^12.2.0",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
