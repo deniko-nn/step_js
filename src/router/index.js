@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import AnimeList from '../views/AnimeList.vue'
+import ShowAnime from '../views/ShowAnime.vue'
 
 Vue.use(VueRouter)
 
@@ -15,7 +16,12 @@ const routes = [
     path: '/v1/anime',
     name: 'Anime',
     component: AnimeList
-  }
+  },
+  {
+    path: '/v1/anime/:id',
+    name: 'ShowAnime',
+    component: ShowAnime
+  },
 ]
 
 const router = new VueRouter({
